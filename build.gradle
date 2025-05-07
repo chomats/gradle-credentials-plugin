@@ -4,7 +4,7 @@ import static java.lang.Integer.parseInt
 
 plugins {
     id 'java-gradle-plugin'
-    id 'com.gradle.plugin-publish' version '1.2.1'
+    id 'com.gradle.plugin-publish' version '1.2.2'
     id 'org.nosphere.gradle.github.actions' version '1.4.0'
     id 'groovy'
 }
@@ -18,7 +18,7 @@ repositories {
 
 dependencies {
     implementation 'nu.studer:java-ordered-properties:1.0.4'
-    implementation 'commons-codec:commons-codec:1.16.0'
+    implementation 'commons-codec:commons-codec:1.16.1'
 
     testImplementation 'org.spockframework:spock-core:2.3-groovy-3.0'
 }
